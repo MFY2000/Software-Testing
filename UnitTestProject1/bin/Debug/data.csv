@@ -1,0 +1,4 @@
+url,username,password,message,locator
+https://adactinhotelapp.com/HotelAppBuild2/, ImadTester,ImadTester,Welcome to Adactin Group of Hotels,welcome_menu
+https://adactinhotelapp.com/HotelAppBuild2/, ImadTester123,ImadTester123,Invalid Login details or Your Password might have expired. Click here to reset your password,auth_error
+https://adactinhotelapp.com/HotelAppBuild2/, ImadTester123,wrongPass,Invalid Login details or Your Password might have expired. Click here to reset your password,auth_error

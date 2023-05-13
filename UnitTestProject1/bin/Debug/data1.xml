@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Automation>
+	<Execution>		
+		<Login>
+			<url>https://adactinhotelapp.com/HotelAppBuild2/</url>
+			<username>ImadTester</username>
+			<password>ImadTester</password>
+			<message>Welcome to Adactin Group of Hotels</message>
+			<locator>welcome_menu</locator>
+		</Login>
+		
+		<Login>
+			<url>https://adactinhotelapp.com/HotelAppBuild2/</url>
+			<username>user1</username>
+			<password>test123</password>
+			<message>Invalid Login details or Your Password might have expired. Click here to reset your password</message>
+			<locator>auth_error</locator>
+		</Login>
+		<Login>
+			<url>https://adactinhotelapp.com/HotelAppBuild2/</url>
+			<username>testuser123</username>
+			<password>test123</password>
+			<message>Invalid Login details or Your Password might have expired. Click here to reset your password</message>
+			<locator>auth_error</locator>
+		</Login>
+	</Execution>
+</Automation>
